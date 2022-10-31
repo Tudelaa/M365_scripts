@@ -4,3 +4,6 @@ This repository include several different PowerShell scripts that can help your 
 | Script Name        | Description                                                             |
 | ------------------ | ----------------------------------------------------------------------- |
 | inventoryfiles.ps1 | This script in PowerShell count all the Office files -.xlsx,docx,pst...-  you have in your different Disks/partitions and creates a CSV report with the size in bytes to have full inventory if you are scheduling to migrate your server/computer to the cloud |
+| Auditfolders.ps1   | A PowerShell script to get NTFS permissions and save it on CSV file. Usefull to know all NTFS security in a folder request and all subfolders before migrate it to SharePoint or Teams|
+
+
