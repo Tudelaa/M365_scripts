@@ -80,7 +80,7 @@ function folderreport {
 
                         $folder = Get-Item -path $pathreport -ErrorAction SilentlyContinue
 
-                        if($folder.Name -eq $null) { 
+                        if($folder -eq $null) { 
 
                                                       write-host "Creating folder $pathreport"
                                                       New-Item $pathreport -ItemType Directory
